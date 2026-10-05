@@ -1,0 +1,17 @@
+# MNIST 数据集（64MB，train.py 里 download=True 会自动重新下载）
+mnist_data/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# PyCharm / IDE
+.idea/
+
+# 系统
+Thumbs.db
+.DS_Store
+
+# PyTorch 训练产物
+*.pth
+*.pt
